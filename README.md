@@ -11,21 +11,21 @@ REST API POST Request
 URL:	http://yourhost:PORT/PLAY
 
 Sample Body:
-1.
-      {
-        "GAMEPLAY": ["PLACE 1,2,EAST", 
-                       "MOVE",
-                       "MOVE", 
-                       "LEFT", 
-                       "MOVE", 
-                       "REPORT"]
-      }
 
-2.
-      {
-        "GAMEPLAY": ["MOVE",
-                       "REPORT"]
-      }
+            {
+                  "GAMEPLAY": ["PLACE 1,2,EAST", 
+                             "MOVE",
+                             "MOVE", 
+                             "LEFT", 
+                             "MOVE", 
+                             "REPORT"]
+            }
+OR
+
+            {
+                  "GAMEPLAY": ["MOVE",
+                             "REPORT"]
+            }
 
 ![1](https://user-images.githubusercontent.com/26091861/34084261-5c6cba64-e37d-11e7-8166-584e87fbf739.png)
 
