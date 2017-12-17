@@ -8,10 +8,10 @@ Sample Input:
 
 REST API POST Request
 
-URL:	http://localhost:8080/PLAY
+URL:	http://yourhost:PORT/PLAY
 
-Body:
-
+Sample Body:
+1.
       {
         "GAMEPLAY": ["PLACE 1,2,EAST", 
                        "MOVE",
@@ -21,6 +21,7 @@ Body:
                        "REPORT"]
       }
 
+2.
       {
         "GAMEPLAY": ["MOVE",
                        "REPORT"]
